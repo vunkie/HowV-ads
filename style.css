@@ -1,0 +1,102 @@
+
+body {
+    background-color: indigo;
+}
+
+/* background image banner */
+.bgimage {
+    height: 100vh;
+    background: url('imagens/mainbanner.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+/* css text above image */
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/*about */
+
+.titlefont{
+    text-align: center;
+    font-family: 'Montserrat' ;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.bodyfont {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+/* about img */
+.imageAboutPage {
+    width: 80%;
+}
+
+.card, .card-text {
+    background-color:indigo ;
+    color: whitesmoke;
+}
+
+.card-title {
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* background color for navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/*navbar color */
+.navbar-brand {
+    color: white;
+}
+.nav-link {
+    color: whitesmoke;
+}
+
+/*social media icon */
+
+.social-icons {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover,.fa-twitch:hover {
+    color: fuchsia;
+}
+.fab {
+    color: black;
+}
+
+/* footer */
+#footer {
+    background-color:lightgray;
+    text-align: center;
+}
+
+/*spacing */
+
+#about, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
