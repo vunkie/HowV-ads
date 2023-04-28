@@ -24,7 +24,8 @@ body {
     top: 50%;
     left: 35%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: blueviolet;
+    text-shadow: 2px 2px black;
 }
 
 /*about */
@@ -64,10 +65,10 @@ body {
 
 /*navbar color */
 .navbar-brand {
-    color: white;
+    color: black;
 }
 .nav-link {
-    color: whitesmoke;
+    color: rgb(137, 18, 223);
 }
 
 /*social media icon */

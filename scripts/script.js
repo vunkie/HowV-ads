@@ -7,9 +7,11 @@ window.onscroll = function() {
     var top = window.scrollY;
     if(top >=100) {
         header.classList.add('navbarDark');
+        document.getElementById("brand").style.color="BlueViolet";
     }
     else {
         header.classList.remove('navbarDark');
+        document.getElementById("brand").style.color="Black";
     }
 }
 
